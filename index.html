@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <title>MiniBlog</title>
+</head>
+<body onload="init()">
+    <div class="d-flex flex-column align-items-center p-3 bg-white border-bottom box-shadow fixed-top">
+        <img src="images/mini-blog-logo.png" height="40" />
+        <nav>
+            <a href="#" id="getLatest" class="p-2 text-dark">Latest</a>
+            <a href="#" id="getAll" class="p-2 text-dark active">All</a>
+            <a href="#" id="getPopular" class="p-2 text-dark">Popular</a>
+        </nav>
+    </div>
+
+    <div class="blog-header mx-auto text-center">
+        <h1>Is it beautiful</h1>
+        <p class="lead">All the latest <strong><em>Tech</em></strong>, <strong><em>Design</em></strong> and <strong><em>Development</em></strong> news from around the world.</p>
+    </div>
+
+    <div class="container team">
+        <img src="images/thandi.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="images/john.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="images/sally.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="images/andile.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="images/bob.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="images/dave.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="images/jane.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="images/lee.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="images/lungi.jpg" class="img-thumbnail rounded-circle" width="90">
+    </div>
+
+    <div class="row container mx-auto">
+        <div class="column" id="posts">
+            Loading...
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
