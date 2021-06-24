@@ -11,7 +11,10 @@
 </head>
 <body onload="init()">
     <div class="d-flex flex-column align-items-center p-3 bg-white border-bottom box-shadow fixed-top">
+        <!-- image logo -->
         <img src="images/mini-blog-logo.png" height="40" />
+        
+        <!-- navigate through posts -->
         <nav>
             <a href="#" id="getLatest" class="p-2 text-dark">Latest</a>
             <a href="#" id="getAll" class="p-2 text-dark active">All</a>
@@ -24,6 +27,7 @@
         <p class="lead">All the latest <strong><em>Tech</em></strong>, <strong><em>Design</em></strong> and <strong><em>Development</em></strong> news from around the world.</p>
     </div>
 
+    <!-- display team members images -->
     <div class="container team">
         <img src="images/thandi.jpg" class="img-thumbnail rounded-circle" width="90">
         <img src="images/john.jpg" class="img-thumbnail rounded-circle" width="90">
@@ -36,6 +40,7 @@
         <img src="images/lungi.jpg" class="img-thumbnail rounded-circle" width="90">
     </div>
 
+    <!-- load posts from app.js file -->
     <div class="row container mx-auto">
         <div class="column" id="posts">
             Loading...
